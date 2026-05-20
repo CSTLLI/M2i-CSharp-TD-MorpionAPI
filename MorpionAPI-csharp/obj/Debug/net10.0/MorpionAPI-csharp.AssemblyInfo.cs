@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MorpionAPI-csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04eb9a5e99101abad2907ed109a32e9b2024c4c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ced9b208aeebab0e91175670db90fcb65fce3389")]
 [assembly: System.Reflection.AssemblyProductAttribute("MorpionAPI-csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MorpionAPI-csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
