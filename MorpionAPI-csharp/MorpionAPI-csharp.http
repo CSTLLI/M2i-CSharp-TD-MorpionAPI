@@ -1,0 +1,35 @@
+@MorpionAPI_csharp_HostAddress = http://localhost:5069
+
+### Create a Human vs Human game
+POST {{MorpionAPI_csharp_HostAddress}}/games
+Content-Type: application/json
+
+{
+  "mode": "HumanVsHuman"
+}
+
+### Create a Human vs Bot game
+POST {{MorpionAPI_csharp_HostAddress}}/games
+Content-Type: application/json
+
+{
+  "mode": "HumanVsBot"
+}
+
+### Get a game (replace {id})
+GET {{MorpionAPI_csharp_HostAddress}}/games/{id}
+Accept: application/json
+
+### Play a move (replace {id}, position 1-9)
+POST {{MorpionAPI_csharp_HostAddress}}/games/{id}/moves
+Content-Type: application/json
+
+{
+  "position": 5
+}
+
+### Get game history
+GET {{MorpionAPI_csharp_HostAddress}}/history
+Accept: application/json
+
+###
